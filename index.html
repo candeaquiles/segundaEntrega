@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lobster&family=MonteCarlo&family=Rajdhani:wght@300&display=swap"
+        rel="stylesheet">
+    <title>Turismo Mendoza</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Hotel Paradise</h1>
+    </header>
+
+    <i class="em em-dizzy" aria-role="presentation" aria-label="DIZZY SYMBOL"></i>
+    <h2>Tenemos la cama, vos trae el vinito</h2>
+
+
+
+    <form action="">
+        <p id="refNombre">Recuerde ingresar su nombre completo</p>
+        <input type="text" id="nombre" placeholder="Nombre">
+        <p>Ingrese su apellido, segun su dni</p>
+        <input type="text" id="apellido" placeholder="apellido">
+        <p>Edad:</p>
+        <input type="text" id="year" placeholder="edad">
+        <p id="refTelefono">Complete su celular, con la caracteristica de la provincia, sin el 0 (cero)</p>
+        <input type="tel" name="phone" id="phone" placeholder="Telefono">
+        <br>
+        <div>
+            <p>Fecha de ingreso</p>
+            <input type="date" name="date" id="date" placeholder="Fecha de ingreso">
+            <p>Fecha de egreso</p>
+            <input type="date" name="date" id="date2" placeholder="fecha de egreso">
+            <p id="dias">Considerando que la noche tiene un costo de $1350. Ingrese cuantas noches desea hospedarse:
+            </p>
+            <input type="number" name="" id="noches">
+            <p>Seleccione la forma de pago</p>
+            <select name="pago" id="formasPago">
+                <option value="efectivo" id="efectivo">Efectivo</option>
+                <option value="credito" id="tarjeta">Tarjeta de credito</option>
+            </select>
+            <select name="cuotas" id="cuotas">
+                <option value="3">3</option>
+                <option value="6">6</option>
+                <option value="12">12</option>
+            </select>
+        </div>
+
+        <br>
+
+    </form>
+
+    <button id="btn">Enviar</button>
+    <button id="reset">Borrar campos</button>
+
+    <div id="pruebaRecargo"></div>
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>

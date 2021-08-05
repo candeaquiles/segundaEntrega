@@ -1,0 +1,28 @@
+body{
+    padding: 1em;
+    background-color: #cfc6ca;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+}
+
+.em em-dizzy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5em;
+}
